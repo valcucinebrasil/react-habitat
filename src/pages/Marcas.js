@@ -1,5 +1,8 @@
 import React from 'react'
 
-const Marcas =() => <h1>Marcas</h1>
-
+const Marcas =() => {
+    return(
+    <h1>Olá</h1>
+)
+    }
 export default Marcas
