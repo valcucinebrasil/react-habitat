@@ -9,7 +9,7 @@ const App = ({  children  }) => (
     <>
         <Header />
         <Container>
-            {children}
+        {  children  }
         </Container>
         <Footer />
     

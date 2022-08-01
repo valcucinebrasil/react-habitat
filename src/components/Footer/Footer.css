@@ -1,10 +1,32 @@
 .app-footer {
+    padding: 5px 5px 5px 15px;
+    margin: 5px;
+    display: block;
+    height: 100%;
     background: #dcdcdc;
-    padding: .5rem 2rem;
-    text-align: right;
+    text-align: justify;
+    
 }
 
-.app-footer__message {
-    color: #595959;
-    font-family: sans-serif;
+.app-footer__list{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   text-decoration: none;
+   gap: 7px;
+   list-style: none;
+   
+}
+.app-menu{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+}
+.app-menu h1 p{
+    display: flex;
+    flex-direction: column;
+}
+.text-footer{
+    width: 325px;
+    gap:2px;
 }
